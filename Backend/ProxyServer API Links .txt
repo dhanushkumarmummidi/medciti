@@ -1,0 +1,27 @@
+login api : localhost:8080/authenticate 
+
+
+Users services:-
+get all users api :  localhost:8080/api/users/getUsers
+get user by id :  localhost:8080/api/users/getUser/1
+add new user (POST Request):   localhost:8080/api/users/saveNewUser
+update user(POST request):  localhost:8080/api/users/updateUser
+delete user by id  (DELETE request) :   localhost:8080/api/users/deleteUser/1
+
+
+Product Services:-
+get all products api :  localhost:8080/api/products/getProducts
+get product by name :  localhost:8080/api/products/getproductbyname/dolo
+add new product (POST Request):   localhost:8080/api/products/addProduct
+update product (POST Request) :  localhost:8080/api/products/updateProduct
+delete product by name (DELETE request) :  localhost:8080/api/products/deleteProduct/dolo
+
+StoreProducts Services :-
+get all storeProducts api :  localhost:8080/api/storeproducts/getStoreProducts
+get storeProduct by id : localhost:8080/api/storeproducts/getStoreProductById/1
+add newStoreProductS(POST Request) : localhost:8080/api/storeproducts/addNewStoreProducts
+update Product(POST Request) : localhost:8080/api/storeproducts/updateStoreProduct
+delete Product(DELETE request) : localhost:8080/api/storeproducts/deleteProduct/1
+
+
+
